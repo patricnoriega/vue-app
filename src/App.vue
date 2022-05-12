@@ -1,20 +1,20 @@
 <template>  
   <header-template />
-  <body-template />
+  <div>
+    <router-view/>
+  </div>
   <footer-template />
 
 </template>
 
 <script>
 import HeaderTemplate from "./components/HeaderTemplate.vue"
-import BodyTemplate from "./components/BodyTemplate.vue"
 import FooterTemplate from "./components/FooterTemplate.vue"
 
 export default {
 name: 'App',
 components: {
   HeaderTemplate,
-  BodyTemplate,
   FooterTemplate,
   }
 }
