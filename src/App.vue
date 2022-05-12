@@ -1,22 +1,22 @@
 <template>  
-  <Header />
-  <Body />
-  <Footer />
+  <header-template />
+  <body-template />
+  <footer-template />
 
 </template>
 
 <script>
-import Header from "./components/Header.vue"
-import Body from "./components/Body.vue"
-import Footer from "./components/Footer.vue"
+import HeaderTemplate from "./components/HeaderTemplate.vue"
+import BodyTemplate from "./components/BodyTemplate.vue"
+import FooterTemplate from "./components/FooterTemplate.vue"
 
 export default {
-name:'app',
+name: 'App',
 components: {
-  Header,
-  Body,
-  Footer,
-}
+  HeaderTemplate,
+  BodyTemplate,
+  FooterTemplate,
+  }
 }
 </script>
 
